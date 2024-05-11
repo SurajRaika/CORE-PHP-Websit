@@ -1,0 +1,78 @@
+<div class="container">
+    <h1>About Todo</h1>
+    <div class="statistics">
+      <div class="statistic">
+        <h2>Total</h2>
+        <p id="totalTodos">0</p>
+      </div>
+      <div class="statistic">
+        <h2>Completed</h2>
+        <p id="completedTodos">0</p>
+      </div>
+      <div class="statistic">
+        <h2>Pending</h2>
+        <p id="pendingTodos">0</p>
+      </div>
+      <div class="statistic">
+        <h2>Categories</h2>
+        <p id="totalCategories">0</p>
+      </div>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button id="searchButton">Search</button>
+    </div>
+  </div>
+
+
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* white background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.search-bar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+  </style>

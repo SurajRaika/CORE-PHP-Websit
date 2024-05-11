@@ -1,0 +1,13 @@
+{
+    "name": "myvendor/my-package",
+    "description": "Description of your website",
+    "type": "project",
+    "require": {
+        "mongodb/mongodb": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
